@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    font-family: 'Quattrocento', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    line-height: 1.5;
+    background-color: #fff;
+    text-align: left;
+}
+#wrapper{
+    text-align: center;
+}
+h1{
+    padding-top: .5em;
+    margin: 0  auto;
+}
+fieldset{
+    padding: 1em 2%;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    width: 95%;
+}
+p{
+    padding: .5em;
+}
+input{
+    padding: .45em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 15%;
+}
+button{
+    background-color: darkgray;
+    padding: 10px;
+    color: #fff;
+    width: 225px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #ccc;
+    color: #fff;
+}
+label{
+    padding-bottom: 15px;
+}

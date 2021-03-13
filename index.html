@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!--CSS-->
+    <link href="styles.css" rel="stylesheet" type="text/css" media="screen">
+    <!--SEO-->
+    <title>Haiku Generator</title>
+    <meta name="description" content="A random haiku generator in which you can add your own words.">
+    <meta name="keywords" content="haiku, 5/7/5, generator">
+</head>
+<body>
+<div id="wrapper">
+    <h1>Haiku Generator</h1>
+    <p>Enter a word, separating syllables with a dash (-)</p>
+    <fieldset>
+        <form>
+           <p><label for="word">Enter a word<br></label>
+               <input type="text" name="word" id="word" title="dashes" pattern="[a-z]+[-]+[a-z]+"></p><!--requires dash-->
+            <p><button id="add-word">Add Word</button></p>
+            <p><button id="generate">Generate!</button></p>
+        </form>
+    </fieldset>
+    <div id="message"></div>
+    <div id="haiku">
+        <p id="row-one"></p>
+        <p id="row-two"></p>
+        <p id="row-three"></p>
+    </div>
+</div> <!--closes wrapper-->
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
